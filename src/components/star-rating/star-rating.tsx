@@ -1,8 +1,9 @@
 import { Component, Prop, h } from "@stencil/core";
 
+
 @Component({
   tag: "star-rating",
-  shadow: false
+  shadow: false // Set to false to get global styles
 })
 export class StarRatingComponent {
   color = "orange";
